@@ -1,0 +1,43 @@
+/* ProfilesGrid.module.css */
+.profilesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.profileCard:hover {
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+  transition: border-color 0.2s ease;
+}
+
+.profileCard:hover .profileImage {
+  border-color: #007bff; /* Change border color on hover */
+}
+
+.profileName {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+  text-align: center;
+}

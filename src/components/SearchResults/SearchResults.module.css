@@ -1,0 +1,11 @@
+.searchResultsContainer {
+  margin-top: 20px;
+}
+
+.resultList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

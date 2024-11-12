@@ -1,0 +1,34 @@
+/* FileUpload.module.css */
+.fileUploadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+.uploadButton {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.uploadButton:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.uploadButton:hover:not(:disabled) {
+  background-color: #218838;
+}

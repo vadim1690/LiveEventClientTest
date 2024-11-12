@@ -1,0 +1,23 @@
+/* components/NavBar/NavBar.module.css */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.navBar h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.navLinks a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
